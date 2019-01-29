@@ -70,7 +70,7 @@ ibmdb.open("DRIVER={DB2};DATABASE=BLUDB;UID=ndk89838;PWD=0bmg47crj@1vgc5s;HOSTNA
 				 	},1000);
 				 });
 				
-				 	conn.query("UPDATE EMPLOYEE SET FIRSTNAME = 'xyz'WHERE LASTNAME='Burgessess' ",(err,employees,moreResultSets)=>{
+				 	conn.query("UPDATE EMPLOYEE SET FIRSTNAME = 'xyz'WHERE LASTNAME='Burgessess'",(err,employees,moreResultSets)=>{
 				  	setTimeout(()=>{
 				  		console.log("Inside UPDATE Function");
 				  		show();
